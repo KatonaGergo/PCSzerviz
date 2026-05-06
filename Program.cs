@@ -1,6 +1,6 @@
-using PCSherviz.Menus;
-using PCSherviz.Services;
-using PCSherviz.UI;
+using PCSzerviz.Menus;
+using PCSzerviz.Services;
+using PCSzerviz.UI;
 
 // ── Konzol beállítása ─────────────────────────────────────
 Console.OutputEncoding = System.Text.Encoding.UTF8;
@@ -30,3 +30,4 @@ catch (Exception ex)
 // ── Főmenü indítása ───────────────────────────────────────
 var menu = new MunkalapMenu(szolgaltatas);
 menu.Futtat();
+

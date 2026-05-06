@@ -1,4 +1,4 @@
-namespace PCSherviz.Models;
+namespace PCSzerviz.Models;
 
 /// <summary>
 /// Egy alkatészt vagy felhasznált anyagot reprezentál egy munkalapon.
@@ -15,3 +15,4 @@ public class Alkatresz
     public override string ToString()
         => $"{Nev} ({Mennyiseg} db × {EgysegAr:N0} Ft = {OsszAr:N0} Ft)";
 }
+

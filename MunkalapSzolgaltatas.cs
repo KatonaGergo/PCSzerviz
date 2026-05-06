@@ -1,8 +1,8 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using PCSherviz.Models;
+using PCSzerviz.Models;
 
-namespace PCSherviz.Services;
+namespace PCSzerviz.Services;
 
 /// <summary>
 /// CRUD műveletek, validáció és JSON fájlkezelés a munkalapokhoz.
@@ -365,3 +365,4 @@ public class MunkalapSzolgaltatas
             throw new ArgumentException($"{megjelenitesNev} nem lehet több 10 millió Ft-nál!", paramNev);
     }
 }
+

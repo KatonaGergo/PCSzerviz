@@ -7,7 +7,7 @@ Konzolalkalmazás C# (.NET 8) – Szerviz munkák nyilvántartása.
 ## Indítás
 
 ```bash
-dotnet run --project PCSherviz.csproj
+dotnet run --project PCSzerviz.csproj
 # vagy saját adatfájllal:
 dotnet run -- sajat_adatok.json
 ```
@@ -52,7 +52,7 @@ dotnet run -- sajat_adatok.json
 ## Projektstruktúra
 
 ```
-PCSherviz/
+PCSzerviz/
 ├── Models/
 │   ├── Alkatresz.cs       – Alkatrész adatmodell
 │   └── Munkalap.cs        – Munkalap + Statusz enum
@@ -63,7 +63,7 @@ PCSherviz/
 ├── Menus/
 │   └── MunkalapMenu.cs    – Főmenü + almenük
 ├── Program.cs             – Belépési pont
-└── PCSherviz.csproj
+└── PCSzerviz.csproj
 ```
 
 ---
@@ -90,3 +90,4 @@ PCSherviz/
   }
 ]
 ```
+

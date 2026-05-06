@@ -1,8 +1,8 @@
-using PCSherviz.Models;
-using PCSherviz.Services;
-using PCSherviz.UI;
+using PCSzerviz.Models;
+using PCSzerviz.Services;
+using PCSzerviz.UI;
 
-namespace PCSherviz.Menus;
+namespace PCSzerviz.Menus;
 
 /// <summary>
 /// Az alkalmazás összes menüképernyőjét tartalmazza.
@@ -516,3 +516,4 @@ internal class MunkalapMenu
         }
     }
 }
+

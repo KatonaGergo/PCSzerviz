@@ -1,4 +1,4 @@
-namespace PCSherviz.UI;
+namespace PCSzerviz.UI;
 
 /// <summary>
 /// Konzol I/O segédmetódusok: színes kiírás, validált bevitel olvasás.
@@ -135,3 +135,4 @@ internal static class KonzolSeged
         Console.ReadLine();
     }
 }
+

@@ -1,4 +1,4 @@
-namespace PCSherviz.Models;
+namespace PCSzerviz.Models;
 
 /// <summary>
 /// A munkalap lehetséges állapotai.
@@ -65,3 +65,4 @@ public class Munkalap
         ? (int)(KeszultDatum.Value - BeErkezettDatum).TotalDays
         : null;
 }
+
