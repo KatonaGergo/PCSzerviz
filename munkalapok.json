@@ -1,0 +1,28 @@
+[
+  {
+    "Id": 1,
+    "UgyfelNev": "Any\u00E1d",
+    "UgyfelTelefon": "06204041566",
+    "EszkozTipus": "Laptop",
+    "EszkozMarka": "Asus",
+    "SorozatSzam": "87361468013764",
+    "HibaLeiras": "Elbasz\u00F3dott",
+    "TechnikusMegjegyzes": "Nem volt j\u00F3",
+    "Alkatreszek": [
+      {
+        "Nev": "alaplap",
+        "EgysegAr": 10000,
+        "Mennyiseg": 1,
+        "OsszAr": 10000
+      }
+    ],
+    "MunkaDij": 10000,
+    "Statusz": "Kiadva",
+    "BeErkezettDatum": "2026-05-08T06:35:46.3028428+02:00",
+    "KeszultDatum": "2026-05-08T06:37:32.3046053+02:00",
+    "AlkatreszOsszeg": 10000,
+    "Vegosszeg": 20000,
+    "StatuszSzoveg": "\uD83D\uDCE4 Kiadva",
+    "ElvegzesiNapok": 0
+  }
+]

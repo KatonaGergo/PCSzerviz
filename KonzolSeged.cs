@@ -1,7 +1,7 @@
 namespace PCSzerviz.UI;
 
 /// <summary>
-/// Konzol I/O segédmetódusok: színes kiírás, validált bevitel olvasás.
+/// Konzol I/O segédmetódusok
 /// </summary>
 internal static class KonzolSeged
 {
