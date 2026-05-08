@@ -5,7 +5,7 @@ using PCSzerviz.Models;
 namespace PCSzerviz.Services;
 
 /// <summary>
-/// CRUD műveletek, validáció és JSON fájlkezelés a munkalapokhoz.
+/// CRUD műveletek
 /// </summary>
 public class MunkalapSzolgaltatas
 {
@@ -164,17 +164,16 @@ public class MunkalapSzolgaltatas
     //  UPDATE – Státusz
     // ════════════════════════════════════════════════════════
 
-    /// <summary>Státusz frissítése; Kész esetén beállítja a dátumot.</summary>
+    /// <summary>Státusz frissítése</summary>
     public void StatuszFrissites(int id, Statusz ujStatusz)
     {
         var munkalap = MunkalapLeker(id);
 
-        // Üzleti logika: Kiadva csak Kész után lehetséges
         if (ujStatusz == Statusz.Kiadva && munkalap.Statusz != Statusz.Kesz)
             throw new InvalidOperationException(
                 "Csak Kész állapotú munkát lehet Kiadva-ra állítani!");
 
-        // Visszalépés tiltása (nem mehet Kész → Beérkezett)
+
         if ((int)ujStatusz < (int)munkalap.Statusz)
             throw new InvalidOperationException(
                 $"Nem lehet visszaléptetni ({munkalap.StatuszSzoveg} → {ujStatusz})!");

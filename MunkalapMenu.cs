@@ -52,7 +52,6 @@ internal class MunkalapMenu
             }
             catch (Exception ex)
             {
-                // Nem kezelt kivétel elkapása – a program nem omlik össze
                 KonzolSeged.Hiba($"Váratlan hiba: {ex.Message}");
                 KonzolSeged.VarEnter();
             }
@@ -63,8 +62,6 @@ internal class MunkalapMenu
     {
         Console.Clear();
         KonzolSeged.Fejlec("PC SZERVIZ MUNKALAP-KEZELŐ  v1.0");
-
-        // Gyors áttekintés a főmenüben
         int nyitott = _szolg.NyitottMunkakSzama();
         Console.ForegroundColor = nyitott > 0 ? ConsoleColor.Yellow : ConsoleColor.Green;
         Console.WriteLine($"  Nyitott munkák: {nyitott} db");
